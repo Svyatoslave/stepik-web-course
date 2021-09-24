@@ -1,0 +1,223 @@
+/* The Global Elite
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  max-width: 1219px;
+  margin: auto;
+  padding: 0 55px;
+  box-sizing: border-box;
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 64px;
+  text-align: center;
+  color: #007765;
+}
+
+.anchor {
+  position: absolute;
+  margin-top: -85px;
+}
+
+/* Header
+   ========================================================================== */
+
+.header {
+  position: sticky;
+  top: 0;
+  display: block;
+  max-width: 100%;
+  background: #007765;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-logo {
+  display: block;
+  width: 183px;
+  height: 45px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.header-links {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Jumbotron
+   ========================================================================== */
+
+.jumbotron {
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 160px 0;
+}
+
+.jumbotron-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 72px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* The problem
+   ========================================================================== */
+
+.the-problem {
+  background-color: #eeeeee;
+}
+
+.the-problem-content {
+  padding: 48px 0 92px;
+}
+
+.the-problem-paragraph {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.the-problem-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.the-problem-paragraph-bold {
+  font-weight: 700;
+}
+
+/* Hero
+   ========================================================================== */
+
+.hero {
+  background-image: url("/img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 128px 110px;
+}
+
+.hero-title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+
+/* PiedPiperCoin
+   ========================================================================== */
+
+.ppc-content {
+  padding: 48px 0 92px;
+}
+
+.ppc-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.ppc-paragraph {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.ppc-logo {
+  height: 115px;
+  width: 115px;
+}
+
+/* The Team 
+========================================================================== */
+
+.the-team {
+  background-color: #eeeeee;
+}
+
+.the-team-content {
+  padding: 58px 0 84px;
+}
+
+.the-team-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 32px;
+}
+
+.the-team-card {
+  display: flex;
+  justify-content: center;
+  width: 349px;
+}
+
+.the-team-fullname {
+  margin: 12px 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #007765;
+}
+
+.the-team-position {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Footer
+========================================================================== */
+
+.footer {
+  background-color: #333333;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 300px 62px;
+}
+.footer-paragraph {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}

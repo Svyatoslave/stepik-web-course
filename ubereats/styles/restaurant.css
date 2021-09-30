@@ -1,0 +1,202 @@
+/* Restaurant
+========================================================================== */
+
+/* Promo
+========================================================================== */
+
+.promo {
+  background-image: url("../assets/img/Restaurant/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.promo-content {
+  padding: 96px 0 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.promo-card {
+  max-width: 389px;
+  background-color: #fff;
+}
+.promo-card-name {
+  margin: 38px 38px 42px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.promo-row {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.promo-description {
+  font-weight: 400;
+  font-size: 14px;
+  color: #626262;
+}
+.promo-time {
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #262626;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 8px 16px;
+  color: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .promo {
+    background-image: url("../assets/img/Restaurant/tabletfon.png");
+  }
+  .promo-content {
+    justify-content: flex-start;
+    padding: 80px 0 80px;
+  }
+  .promo-card-name {
+    margin: 24px 29px 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 561px) {
+  .promo-content {
+    justify-content: center;
+    padding: 131px 0 0;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  }
+
+  .promo {
+    background-image: url("../assets/img/Restaurant/mobilefon.jpg");
+  }
+  .promo-card {
+    margin: 0 0 0px;
+    border-radius: 2px;
+  }
+  .promo-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .promo-card-name {
+    margin: 34px 48px 29px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .container {
+    padding: 0 0;
+  }
+}
+
+/* Filter
+========================================================================== */
+
+.filter {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.filter-row {
+  padding: 32px 0 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 40px;
+}
+.filter-button {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #626262;
+}
+.filter-button:hover {
+  color: #327430;
+}
+@media (max-width: 561px) {
+  .filter {
+    display: none;
+  }
+}
+
+/* Menu
+========================================================================== */
+
+.menu {
+  margin-bottom: 80px;
+}
+.menu-hr {
+  display: none;
+}
+
+.menu-content {
+  padding-top: 16px;
+}
+.menu-card {
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.menu-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+@media (max-width: 992px) {
+  .menu-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 459px) {
+  .menu-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.menu-card-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu-card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu-card-name {
+  margin: 16px 16px 4px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.menu-card-description {
+  margin: 0 16px 0;
+  font-weight: 400;
+  font-size: 13px;
+  color: #626262;
+}
+.menu-card-price {
+  margin: 0 16px 0px;
+  font-weight: 500;
+  font-size: 15px;
+}
+@media (max-width: 561px) {
+  .title {
+    text-align: center;
+  }
+  .menu-hr {
+    display: block;
+    width: 20%;
+  }
+  .menu-card-name-block {
+    margin: 0; /* Убираем внешний отступ */
+    -webkit-line-clamp: 1; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+  }
+}

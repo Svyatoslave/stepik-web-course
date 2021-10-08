@@ -113,7 +113,7 @@ body {
 .footer__world-logo {
   padding: 10px 10px;
 }
-select {
+.footer__langs {
   width: 70%;
   outline: none;
   font: 13px Roboto, sans-serif;
@@ -130,15 +130,16 @@ select {
 @media (max-width: 459px) {
   .footer__wrapper {
     grid-template-columns: 1fr;
+    padding: 20px 10px;
   }
 }
 
-.footer__links-info > a {
+.footer-link {
   text-decoration: none;
   color: white;
   font-size: 13px;
 }
-.footer__links-info > a > p {
+.footer-link-text {
   margin: 7px 0px 16px 0px;
 }
 .footer__links-social__href {
@@ -147,7 +148,7 @@ select {
 .footer__links-social__href {
   padding-bottom: 32px;
 }
-.footer__links-social__href > p {
+.footer-link {
   margin-top: 33px;
 }
 
@@ -164,7 +165,7 @@ select {
   justify-content: space-between;
 }
 
-.copyright__elem > p {
+.copyright_elem-text {
   font-weight: 400;
   font-size: 11px;
   margin-top: 20px;
@@ -178,13 +179,13 @@ select {
   .footer__copyright {
     flex-direction: column;
   }
-  .copyright__elem > p {
+  .copyright_elem-text {
     margin-top: 20px;
     margin-bottom: 10px;
   }
 }
 
-.container > hr {
+.footer__line {
   border: 1px solid #979797;
   border-bottom-width: 0;
 }
